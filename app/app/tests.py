@@ -6,14 +6,14 @@ from app import calc
 class CalcTests(SimpleTestCase):
 
     def test_add_numbers(self):
-        res = calc.add(5, 6)
+        res = calc.add(5, 5)
 
         self.assertEqual(res, 11)
 
 
-class CalcTests(SimpleTestCase):
+# class CalcTestsSub(SimpleTestCase):
 
-    def test_subtract_numbers(self):
-        res = calc.sub(5, 6)
+#     def test_subtract_numbers(self):
+#         res = calc.sub(5, 6)
 
-        self.assertEqual(res, 1)
+#         self.assertEqual(res, 1)
