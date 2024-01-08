@@ -2,6 +2,7 @@ version: "3.9"
 
 services:
   app:
+    image: recipe-api
     build:
       context: .
       args:
